@@ -205,7 +205,69 @@ The program displays:
 - Sensor Fault Detection
 - AI-Based Test Automation
 
----
+##OUTPUT:
+AI-Based Adaptive ECU Validation Started
+
+Test 01 | normal_random_test     | AI: FAULT  | Actual: normal
+Test 02 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 03 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 04 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 05 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 06 | adaptive_boundary_test | AI: FAULT  | Actual: fuel_injection_error
+Test 07 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 08 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 09 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 10 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 11 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 12 | adaptive_boundary_test | AI: FAULT  | Actual: over_current
+Test 13 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 14 | adaptive_boundary_test | AI: NORMAL | Actual: normal
+Test 15 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 16 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 17 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 18 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 19 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 20 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 21 | adaptive_boundary_test | AI: FAULT  | Actual: over_current
+Test 22 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 23 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 24 | adaptive_boundary_test | AI: NORMAL | Actual: normal
+Test 25 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 26 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 27 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 28 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 29 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 30 | adaptive_boundary_test | AI: FAULT  | Actual: over_current
+Test 31 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 32 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 33 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 34 | adaptive_boundary_test | AI: FAULT  | Actual: sensor_offset
+Test 35 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 36 | adaptive_boundary_test | AI: NORMAL | Actual: normal
+Test 37 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 38 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 39 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 40 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 41 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 42 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 43 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 44 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 45 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 46 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 47 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 48 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 49 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+Test 50 | adaptive_boundary_test | AI: FAULT  | Actual: normal
+
+-----------------------------
+Validation Completed
+-----------------------------
+Total tests: 50
+Actual faults: 5
+AI predicted faults: 47
+Approximate detection accuracy: 16.00%
+
+Results saved to: ecu_validation_results.csv
 
 ## 👨‍💻 Author
 
